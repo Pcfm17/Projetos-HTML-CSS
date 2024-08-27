@@ -1,0 +1,30 @@
+h1{
+    color: red;
+}
+div p{
+    font-size: 20pt;
+}
+#p1{
+    color:aqua;
+}
+#p2{
+    color:blueviolet;
+}
+#p3{
+    color:brown;
+}
+.classe_exemplo{
+    background-color:aquamarine;
+}
+.id_exemplo{
+    background-color:blue;
+}
+a:visited{
+    background-color:coral;
+}
+a:hover{
+    background-color: burlywood;
+}
+div p:houver{
+    background-color:green
+}

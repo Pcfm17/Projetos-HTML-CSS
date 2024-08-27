@@ -1,0 +1,53 @@
+h1{
+    color:black;
+    font-size: 30pt;
+}
+div p{
+    color:brown;
+}
+#p1{
+    color:cadetblue;
+    font-size: 20pt;
+}
+#p2{
+    color:cadetblue;
+    font-size: 20pt;
+}
+.classe_li1{
+    background-color: cornsilk;
+    font-size: 15pt;
+}
+.classe_li2{
+    background-color:cornsilk;
+    font-size: 15pt;
+}
+.classe_li3{
+    background-color: cornsilk;
+    font-size: 15pt;
+}
+.classe_li4{
+    background-color: cornsilk;
+    font-size: 15pt;
+}
+.classe_li5{
+    background-color: cornsilk;
+    font-size: 15pt;
+}
+.classe_li6{
+    background-color: cornsilk;
+    font-size: 15pt;
+}
+#p3{
+    color: saddlebrown;
+    font-size: 20pt;
+}
+#p4{
+    color: saddlebrown;
+    font-size: 20pt;
+}
+a:visited{
+    background-color: darkblue;
+}
+a:hover{
+    background-color: red;
+}
