@@ -5,6 +5,10 @@ h1{
 div p{
     color:brown;
 }
+#p0{
+    color: saddlebrown;
+    font-size: 20pt;
+}
 #p1{
     color:cadetblue;
     font-size: 20pt;
