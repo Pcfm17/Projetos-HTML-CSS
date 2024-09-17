@@ -1,0 +1,42 @@
+h1{
+    text-align: center;;
+}
+
+.flex-container{
+    height: 400px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*align-content: center;*/
+    align-items: center;
+}
+
+.flex-container div{
+    background-color: cadetblue;
+    padding: 5px;
+    margin: 10px;
+    width: auto;
+}
+
+#d1{
+    order: 1;
+    flex-grow: 1;
+}
+
+#d2{
+    order: 2;
+    flex-grow: 2;
+}
+
+#d3{
+    order: 3;
+    flex-shrink: 1;
+}
+
+#d4{
+    order: 3;
+    flex-basis: 100px;
+    align-self: flex-start;
+}
