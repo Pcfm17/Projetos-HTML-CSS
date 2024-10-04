@@ -1,0 +1,44 @@
+#tabela, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+h1, h3{
+    color: black;
+    font-size: 20pt;
+}
+#p1{
+    color: cadetblue;
+    font-size: 20pt;
+}
+:root{
+    --cor-principal: rgb(46, 62, 77);
+    --cor-secundaria: rgb(222, 228, 235);
+}
+nav{
+    max-width: 350px;
+    width: 100%;
+    background-color: aquamarine;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    border-bottom: 1px var(--cor-secundaria);
+}
+nav ul li a{
+    color: #fff;
+    padding: 10px;
+    display: block;
+    background-color: chartreuse;
+    text-decoration: none;
+    transition: background .3s;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+}
+#p11{
+    font-size: 20pt;
+}

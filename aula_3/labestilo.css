@@ -1,197 +1,26 @@
+body{
+    background-color: lightgrey;
+}
+
 .div{
+    position: absolute;
     top: 5px;
-    border: solid 5px black;
-    background-color:  bisque;
-    padding: 10px;
-    text-align: center;
-    line-height: 120px;
-}
-#div-vazia{
-    clear: both;
+    left: 0%;
+    right: 5%;
+    height: 20%;
+    width: 200px;
+    padding: 20px;
+    border: solid ;
 }
 
-
-
-
-
-.solid{
-    border-style: solid;
+nav{
+    top: 20px;
+    position: relative;
+    border: solid;
+    background-color: bisque;
 }
 
-
-
-
-
-.body{
-    background-color: lightgray;
-}
-
-
-
-
-#imgA{
-    float: left;
-    top: 5px;
-    width: 10%;
-}
-#imgB{
-    float: right;
-    top: 5px;
-    width: 10%;
-}
-
-
-
-
-
-
-h1{
-    top: 10px;
-    text-align: center;
-    color: darkgreen;
-    display: inline;
-}
-h2{
-    text-align: center;
-    color: black;
-}
-
-
-
-
-
-#p1{
-    font-size: 20pt;
-    color: indigo;
-    font-size: larger 500px;
-}
-
-
-
-
-
-.menu {
-    list-style: none;
-    margin: 10 auto;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    background-color:  lightskyblue;
-    color: darkred;
-    padding: 10px;
-}
-.menu li {
-    display: inline-block;
-    margin-right: 100px;
-}
-
-.menu a {
-    color: darkred;
-    text-decoration: none;
-}
-
-.menu a:hover {
-    color: darkred;
-}
-
-
-
-
-.imagens img{
-    height: 450px;
-}
-
-
-
-
-
-.iframe-container {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto; /* add this to center the container horizontally */
-  }
-  
-  .iframe-container iframe {
-    margin: 10px; /* add some margin between the iframes */
-    width: 400px; /* adjust the width to your needs */
-    height: 300px; /* adjust the height to your needs */
-  }
-
-
-
-
-
-  .imagens {
-    text-align: center;
-  }
-  
-  .imagens img {
-    width: 20%; /* ajuste a largura das imagens */
-    margin: 10px; /* ajuste a margem entre as imagens */
-    display: inline-block;
-  }
-
-
-
-
-
-  #table, th, td{
-    border: 1px solid red;
-    border-collapse: collapse;
-    text-align: center;
-    line-height: 20px;
-    color: black;
-  }
-  table {
-    width: fit-content;
-    margin: auto;
-    border: 5px dashed red;
-    text-align: center;
-    line-height: 20px;
-    color: black;
-} 
-
-
-
-.div-01 {
-    background-color: yellow;
-    padding: 10px;
-    text-align: center;
-    line-height: 20px;
-    font-size: 15pt;
-    width: fit-content;
-    margin: auto;
-}
-#ul li{
-    text-decoration: none;
-}
-.a1{
-    text-decoration: none;
-}
-
-
-
-
-.div-block{
-    background-color:  bisque;
-    padding: 10px;
-    text-align: center;
-    line-height: 120px;
-    font-size: 15pt;
-}
-.div-block p{
-    display: inline;
-}
-#div-block{
-    clear: both;
-}
-#imagemD{
-    float: left;
-    width: 10%;
-    height: 150px;
-}
-#imagemE{
-    float: right;
-    width: 10%;
-    height: 150px;
+#A, #B{
+    width: 100px;
+    
 }

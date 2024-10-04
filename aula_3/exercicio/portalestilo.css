@@ -1,0 +1,11 @@
+.div{
+    display: inline;
+    font-size: 15px;
+    padding: 20px;
+    width: 100px;
+    height: 20px;
+    border: solid 2px black;
+    color: black;
+    background-color: antiquewhite;
+    margin: 10px;
+}
