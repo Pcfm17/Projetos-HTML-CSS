@@ -89,6 +89,6 @@ function ex4() {
       document.getElementById("p3").innerHTML = list.join(", ");
     }
   } else {
-    document.getElementById("p1").innerHTML = "Número invalido ou digite um numero";
+    document.getElementById("p1").innerHTML = "Número invalido, digite um numero ou número muito (baixo, alto)";
   }
 }
