@@ -12,86 +12,54 @@ function quadrado(x,y,largura,altura,cor_linha,cor_preencimento){
 }
 
 //blocos
-quadrado(10,10,50,50,'transparent','blue');
+quadrado(10,10,70,70,'transparent','blue');
 
 quadrado(10,440,50,50,'transparent','yellow');
-quadrado(10,10,50,50,'transparent','yellow');
+quadrado(10,390,50,50,'transparent','yellow');
+quadrado(50,440,50,50,'transparent','yellow');
 
+quadrado(420,10,70,70,'transparent','red');
 
-ctx.beginPath();
-ctx.lineWidth = 2;
-ctx.strokeStyle = 'blue';
-ctx.fillStyle = 'blue';
-ctx.strokeRect(440,10,50,50);
-ctx.fillRect(10,10,50,50);
-ctx.closePath();
+quadrado(440,440,50,50,'transparent','black');
+quadrado(390,440,50,50,'transparent','black');
+quadrado(440,390,50,50,'transparent','black');
 
-ctx.beginPath();
-ctx.lineWidth = 2;
-ctx.strokeStyle = 'green';
-ctx.fillStyle = 'green';
-ctx.strokeRect(440,440,50,50);
-ctx.fillRect(10,10,50,50);
-ctx.closePath();
-
+function linha(x,y,w,z,cor_linha){
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = cor_linha;
+    ctx.moveTo(x,y);
+    ctx.lineTo(w,z);
+    ctx.stroke();
+    ctx.closePath();
+}
 
 //linha vermelha
-ctx.beginPath();
-ctx.lineWidth = 2;
-ctx.strokeStyle = 'red';
-ctx.moveTo(60,60);
-ctx.lineTo(440,440);
-ctx.stroke();
-ctx.closePath();
-
-
-//linha cinsa
-ctx.beginPath();
-ctx.lineWidth = 2;
-ctx.strokeStyle = 'gray';
-ctx.moveTo(10,10);
-ctx.lineTo(10,490);
-ctx.moveTo(10,490);
-ctx.lineTo(490,490);
-ctx.stroke();
-ctx.closePath();
-
-ctx.beginPath();
-ctx.lineWidth = 2;
-ctx.strokeStyle = 'gray';
-ctx.moveTo(10,10);
-ctx.lineTo(490,10);
-ctx.moveTo(490,10);
-ctx.lineTo(490,490);
-ctx.stroke();
-ctx.closePath();
-
+linha(80,80,250,250,'blue');
 
 //linha azul
-ctx.beginPath();
-ctx.lineWidth = 2;
-ctx.strokeStyle = 'blue';
-ctx.moveTo(440,60);
-ctx.lineTo(60,440);
-ctx.stroke();
-ctx.closePath();
-
+linha(420,80,250,250,'red')
 
 //linha verde
-ctx.beginPath();
-ctx.lineWidth = 2;
-ctx.strokeStyle = 'green';
-ctx.moveTo(500,250);
-ctx.lineTo(0,250);
-ctx.stroke();
-ctx.closePath();
+linha(490,250,10,250,'green')
+
+//linha cinsa
+linha(10,10,10,490,'black')
+linha(10,490,490,490,'black')
+
+linha(10,10,490,10,'black')
+linha(490,10,490,490,'black')
+
+function arcos(x,y,raio,angulinicial,angulfinal,cor_linha,cor_preencimento){
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.fillStyle = cor_preencimento;
+    ctx.strokeStyle = cor_linha;
+    ctx.arc(x,y,raio,angulinicial,angulfinal);
+    ctx.fill();
+    ctx.stroke();
+    ctx.closePath();
+}
 
 // arcos
-ctx.beginPath();
-ctx.lineWidth = 2;
-ctx.fillStyle = 'transparent';
-ctx.strokeStyle = 'green';
-ctx.arc(250,250,50,0*Math.PI,1*Math.PI);
-ctx.fill();
-ctx.stroke();
-ctx.closePath();
+arcos(250,250,50,0*Math.PI,1*Math.PI,'green','transparent');
