@@ -1,16 +1,23 @@
-body{
-    text-align: center;
-    background-color: aqua;
+body {
+    background-color: #f0f1f171; /* light gray background */
+    text-align: center; /* center elements */
 }
 #ex1_n1{
-    margin: 20px 20px 5px 20px;
     padding: 10px;
+    margin: 50px 50px 30px 50px;
 }
 #button{
-    margin-bottom: 30px;
     padding: 10px;
-    width: 190px;
+    width: 180px;
 }
-p{
-    font-size: 40px;
+#p1{
+    margin: 50px;
+    font-size: 50px;
+    padding: auto;
+}
+#p2{
+    margin: 50px;
+}
+#p3{
+    margin: 50px;
 }
