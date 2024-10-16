@@ -1,0 +1,22 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "Primeiro código de exemplo do meu servidor",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pcfm17/Projetos-HTML-CSS.git#main"
+  },
+  "keywords": [
+    "Paulo@17032006@"
+  ],
+  "author": "Paulo César Fachetti Motta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pcfm17/Projetos-HTML-CSS/issues"
+  },
+  "homepage": "https://github.com/Pcfm17/Projetos-HTML-CSS/tree/main#readme"
+}
