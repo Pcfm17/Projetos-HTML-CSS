@@ -1,9 +1,9 @@
-var http = requirequire("http");
+var http = require("http");
 let express = require("express");
 
 var app = express();
 
-app.use(express.static("./public"));
+app.use(express.static("./Projeto"));
 
 var server = http.createServer(app);
 
