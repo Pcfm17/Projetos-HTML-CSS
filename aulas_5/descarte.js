@@ -32,3 +32,19 @@ app.set('view engine', 'ejs');
 app.listen(port, () => {
     console.log(`Servidor rodando na porta ${port}`);
 });
+
+
+
+//servidor
+var http = require("http");
+let express = require("express");
+
+var app = express();
+
+app.use(express.static("./Projeto"));
+
+var server = http.createServer(app);
+
+server.listen(80);
+
+console.log('Servidor rodando');
