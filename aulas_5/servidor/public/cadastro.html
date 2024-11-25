@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadrastro_login.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro</h1>
+        <form action="/cadastrar_usuario" method="get">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            <input type="submit" value="Salvar">
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+    <script text="text/javascript" src="resposta_cadastro.ejs"></script>
+</body>
+</html>

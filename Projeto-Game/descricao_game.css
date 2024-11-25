@@ -1,0 +1,49 @@
+body{
+    background-color: darkred;
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    margin: 40px, 10px, 20px, 10px;
+    border: 2px transparent black;
+    background-color: #333;
+    padding: 15px;
+    width: 70%;
+    justify-self: center;
+    color: white;
+}
+p mark{
+    font-size: 35px;
+    padding: 2px;
+}
+p{
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: cadetblue;
+}
+
+nav{
+    background-color: #333;
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    justify-self: center;
+}
+nav ul li a{
+    font-size: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+li a:hover{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

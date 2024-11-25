@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Pcfm17/Projetos-HTML-CSS/issues"
   },
-  "homepage": "https://github.com/Pcfm17/Projetos-HTML-CSS/tree/main#readme"
+  "homepage": "https://github.com/Pcfm17/Projetos-HTML-CSS/tree/main#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.21.1",
+    "mongodb": "4.12"
+  }
 }
